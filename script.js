@@ -28,8 +28,19 @@ function typeWriter(text, element, speed = 50) {
     writeLetter();
 }
 
+// Obtener el elemento de audio
+const backgroundMusic = new Audio("musica.mp3"); 
+backgroundMusic.loop = true; // Hacer que se repita en bucle
+
+let musicStarted = false; // Para evitar que se reinicie la música en cada clic
+
 function nextParagraph() {
-    if (isTyping) return; // Evita que se salte párrafos mientras escribe
+    if (!musicStarted) {
+        backgroundMusic.play().catch(error => console.log("Error al reproducir audio:", error));
+        musicStarted = true;
+    }
+
+    if (isTyping) return; // Evita que se salten párrafos mientras escribe
 
     const storyText = document.getElementById("story-text");
 
