@@ -114,7 +114,7 @@ function showLoveMessage() {
     const overlay = document.getElementById("overlay");
     overlay.style.display='none';
     storyText.style.color= "#800f2f";
-    typeWriter("Sabía que dirías que siiii :3333 tequieromuchooooooo", storyText, 100)
+    typeWriter("Sabía que dirías que siiii :3333 tequieromuchooooooo.       De:Osmar Para: Arleth", storyText, 100)
     const buttonsContainer = document.getElementById("buttons-container");
     buttonsContainer.style.display= "none";
     respuesta = true;
