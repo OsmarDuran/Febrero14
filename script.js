@@ -2,7 +2,7 @@
 const storyParagraphs = [
     "20 de mayo del 2024, ese fue el día en que te envié mi primer mensaje.",
     "Quién lo diría. No llevamos ni un año de conocernos y siento que te he tenido toda la vida.",
-    "Con el tiempo, descubrieron que compartían risas, sueños y momentos inolvidables.",
+    "Y quién diría que conocería a una persona tan importante ese día.",
     "A través de altibajos, su cariño solo se hacía más fuerte.",
     "Y ahora, en este día especial, hay una pregunta que debo hacerte...",
     "¿Aceptarías ser mi Valentine? ❤️"
