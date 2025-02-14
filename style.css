@@ -225,18 +225,3 @@ body {
   transition: .2s;
 }
 
-.hover {
-  color: white;
-  font-family: 'Pacifico', cursive;
-  text-align: center;
-}
-
-.text:hover span {
-  display: none;
-}
-
-.text:hover:before {
-  content:"Remember not to eat too much candy—you're sweet enough already.";
-  font-size:25px;
-
-}
