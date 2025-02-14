@@ -12,6 +12,7 @@
         Tu navegador no soporta la reproducción de video.
     </video>    
     <div class="happy-valentines">
+      <div id="overlay"></div>
       <div class="valentines-day-card" onclick="nextParagraph(); hearts()">
         <div class="clouds"></div>
         <div class="hearts">
@@ -21,6 +22,10 @@
           </div>
         </div>
         <div class="text" id="story-text">Feliz San Valentin <br>corazón de melón :3<br>Hazme clic...</div>
+        <div id="buttons-container" style="display: none;">
+          <button id="yes-button" onclick="showLoveMessage()">Sí 💖</button>
+          <button id="no-button" onclick="growYesButton()">No 💔</button>
+        </div>
       </div>
     </div>
     <script src="script.js"></script>
