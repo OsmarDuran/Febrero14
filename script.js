@@ -1,7 +1,7 @@
 // Lista de párrafos de la historia
 const storyParagraphs = [
-    "Hace un tiempo, dos almas se encontraron en el lugar menos esperado...",
-    "Desde ese momento, algo especial comenzó a florecer entre ellos.",
+    "20 de mayo del 2024, ese fue el día en que te envié mi primer mensaje.",
+    "Quién lo diría. No llevamos ni un año de conocernos y siento que te he tenido toda la vida.",
     "Con el tiempo, descubrieron que compartían risas, sueños y momentos inolvidables.",
     "A través de altibajos, su cariño solo se hacía más fuerte.",
     "Y ahora, en este día especial, hay una pregunta que debo hacerte...",
@@ -54,4 +54,23 @@ function nextParagraph() {
         storyText.style.color = "#d63384";
         storyText.style.fontSize = "1.5em";
     }
+}
+
+
+function hearts(){
+    const heartCreate = () =>{
+        const heart = document.createElement('div');
+        heart.classList.add('heart');
+        heart.innerText = '❤️';
+        heart.style.left = Math.random()*100+"vw";
+        heart.style.animationDuration=Math.random() * 2+3+"s";
+    
+        document.body.appendChild(heart);
+    
+        setTimeout(()=>{
+            heart.remove();
+        },5000);
+    }
+    
+    setInterval(heartCreate,800);
 }
