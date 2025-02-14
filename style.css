@@ -76,7 +76,7 @@ body {
   width: 100px;;
   height:100px;
   border-radius:50%;
-  top:110px;
+  top:130px;
   left:-25px;
   box-shadow:60px 15px #ffb3c1,130px 13px #ffb3c1, 190px 20px #ffb3c1,260px -5px #ffb3c1, 340px 20px #ffb3c1;
 }
@@ -88,7 +88,7 @@ body {
   width:100px;
   height:100px;
   border-radius:50%;
-  top:125px;
+  top:145px;
   left:-40px;
   box-shadow: 50px 25px #ffccd5,120px 30px #ffccd5, 200px 15px #ffccd5,260px 30px #ffccd5, 330px 30px #ffccd5,380px 10px #ffccd5;
 }
@@ -100,7 +100,7 @@ body {
   border-radius:50%;
   background-color: #fff0f3;
   z-index:5;
-  top:160px;
+  top:190px;
   left:-20px;
   bottom: 10px;
   box-shadow: 55px 20px #fff0f3, 125px 10px #fff0f3,175px 20px #fff0f3, 250px 10px #fff0f3, 320px 5px #fff0f3, 380px 10px #fff0f3;
