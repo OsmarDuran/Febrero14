@@ -108,23 +108,19 @@ body {
 
 .hearts {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 80%;
-  height: auto;
-  transform: translate(-50%, -50%);
+  z-index:2;
 }
 
 .heartOne {
   position: absolute;
-  left:100px;
+  right: 100;
   top:250px;
   animation: up 4s linear forwards 1s;
 }
 
 .heartTwo {
   position: absolute;
-  left:270px;
+  left:100px;
   top:230px;
   animation: up 5s linear forwards 1.8s;
 }
@@ -138,14 +134,14 @@ body {
 
 .heartFour {
   position: absolute;
-  left:320px;
+  left:10;
   top:380px;
   animation: upTwo 9s linear infinite 3.5s;
 }
 
 .heartFive {
   position: absolute;
-  left:150px;
+  left: 1px;
   top:400px;
   animation: upTwo 13s linear infinite 4.5s;
 }
